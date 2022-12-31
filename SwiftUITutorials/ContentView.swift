@@ -2,15 +2,20 @@
 //  ContentView.swift
 //  SwiftUITutorials
 //
-//  Created by Franciscus Valentinus Ongkosianbhadra on 13/12/22.
+//  Created by Franciscus Valentinus Ongkosianbhadra on 31/12/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Turtle Rock")
-            .font(.title)
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Hello, world!")
+        }
+        .padding()
     }
 }
 
