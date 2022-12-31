@@ -12,6 +12,7 @@
 		94DA0B6F29607C7600ABE74E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DA0B6E29607C7600ABE74E /* Assets.xcassets */; };
 		94DA0B7229607C7600ABE74E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DA0B7129607C7600ABE74E /* Preview Assets.xcassets */; };
 		94DA0B79296080EB00ABE74E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DA0B78296080EB00ABE74E /* CircleImage.swift */; };
+		94DA0B7B2960842600ABE74E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DA0B7A2960842600ABE74E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		94DA0B6E29607C7600ABE74E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94DA0B7129607C7600ABE74E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94DA0B78296080EB00ABE74E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		94DA0B7A2960842600ABE74E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				94DA0B6A29607C7500ABE74E /* SwiftUITutorialsApp.swift */,
+				94DA0B7A2960842600ABE74E /* MapView.swift */,
 				94DA0B78296080EB00ABE74E /* CircleImage.swift */,
 				94DA0B6C29607C7500ABE74E /* ContentView.swift */,
 				94DA0B6E29607C7600ABE74E /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94DA0B6D29607C7500ABE74E /* ContentView.swift in Sources */,
+				94DA0B7B2960842600ABE74E /* MapView.swift in Sources */,
 				94DA0B6B29607C7500ABE74E /* SwiftUITutorialsApp.swift in Sources */,
 				94DA0B79296080EB00ABE74E /* CircleImage.swift in Sources */,
 			);
